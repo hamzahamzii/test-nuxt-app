@@ -1,0 +1,24 @@
+.bg-main {
+  background: transparent linear-gradient(141deg, #ebf4ff 0%, #e6fffa 100%) 0%
+    0% no-repeat padding-box;
+}
+.text-main {
+  color: #319795;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@font-face {
+  font-family: 'lato';
+  src: local('lato'), url('../fonts/Lato-Medium.woff') format('woff'),
+    url('../fonts/Lato-Medium.woff2') format('woff2');
+}
+
+html {
+  font-family: 'lato';
+}

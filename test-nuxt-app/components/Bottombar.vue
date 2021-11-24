@@ -1,0 +1,28 @@
+<template>
+  <div
+    class="
+      p-4
+      inset-x-0
+      fixed
+      bottom-0
+      rounded-t-2xl
+      shadow-top
+      bg-white
+      border-t-3xl
+    "
+  >
+    <button
+      class="
+        w-full
+        rounded-xl
+        text-white
+        bg-gradient-to-r
+        from-green-700
+        to-blue-600
+        py-3
+      "
+    >
+      Kostenlos Registrieren
+    </button>
+  </div>
+</template>
